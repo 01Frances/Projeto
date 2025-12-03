@@ -208,7 +208,7 @@ main > h2 {
 
 @media (max-width: 700px) {
     .fotos {
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat(4, 2fr);
     }
 }
 

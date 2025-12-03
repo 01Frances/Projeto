@@ -15,14 +15,24 @@ h1{
     font-size: 3em;
     color: white;
     font-weight: lighter;
+    text-shadow: 3px 4px 5px black;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgba(43, 43, 43, 0.74);
 }
 body{
-    background-image: url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.651)), url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
 }
 h2{
     font-family: 'Covered By Your Grace';
     padding: 15px;
     font-size: 2em;
+    color: white;
+    text-shadow: 3px 2px 5px black;
 }
 .ep{
     padding: 15px;
@@ -30,4 +40,14 @@ h2{
     color: white;
     font-family: 'Covered By Your Grace';
     margin: 10px 10px 20px 10px;
+    text-shadow: 3px 2px 5px black;
+    border-radius: 4px;
+}
+
+.ep:hover{
+    transform: translateY(-2px);
+}
+
+.apres{
+    padding: 10px;
 }
