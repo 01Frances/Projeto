@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Instrument+Serif:ital@0;1&family=Limelight&family=MedievalSharp&family=Quintessential&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-family: 'Covered By Your Grace';
+}
+.titulo>h1>a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo2{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    height: 100px;
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.555)), url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.help{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100px;
+    margin: 10px;
+}
+
+.help>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgb(32, 32, 32);
+    margin: 3px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.help>p>a{
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+
+.help>p:hover{
+    background-color: rgb(53, 53, 53);
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+}
+
+article{
+    margin: 0px 40px;
+}
+article>a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    padding: 3px 5px;
+    text-align: left;
+}
+
+article>a>p{
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article>a>p:hover{
+    background-color: rgb(53, 53, 53);
+    transform: translateY(-3px);
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 155, 155);
+    padding: 20px;
+    margin: 10px;
+}
+
+.sub{
+    text-align: center;
+    padding: 10px;
+}
+
+header>p{
+    text-align: center;
+    padding: 5px;
+}
+
+header>p>a{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+header>p>a:hover{
+    color: rgb(255, 255, 255);
+}
+.titulof{
+    text-align: center;
+    font-family: 'Covered By Your Grace';
+    padding: 0px 20px 20px 10px;
+}
+
+.titulof>h1>a{
+    text-decoration: none;
+    color: white;
+}
