@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Instrument+Serif:ital@0;1&family=Limelight&family=MedievalSharp&family=Quintessential&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: 'Covered By Your Grace';
+    text-align: center;
+    background-color: rgba(11, 40, 99, 0.733);
+    font-size: 3em;
+    color: white;
+    font-weight: lighter;
+}
+body{
+    background-image: url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
+}
+h2{
+    font-family: 'Covered By Your Grace';
+    padding: 15px;
+    font-size: 2em;
+}
+.ep{
+    padding: 15px;
+    background-color: rgba(11, 40, 99, 0.733);
+    color: white;
+    font-family: 'Covered By Your Grace';
+    margin: 10px 10px 20px 10px;
+}
