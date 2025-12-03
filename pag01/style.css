@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/* ======== FONTES ======== */
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Instrument+Serif:ital@0;1&family=Limelight&family=MedievalSharp&family=Quintessential&display=swap');
+
+/* ======== RESET ======== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ======== HEADER ======== */
+header {
+    background-color: rgba(11, 40, 99, 0.733);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.534);
+    padding: 10px;
+}
+
+header > h1 {
+    font-family: 'Covered By Your Grace';
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.637);
+    margin: 0 auto 10px auto;
+    font-size: clamp(2rem, 8vw, 5rem);
+}
+
+/* ======== NAV ======== */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav > a {
+    padding: 10px 15px;
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav > a:hover {
+    background-color: rgba(11, 40, 99, 0.559);
+    color: rgba(255, 166, 0, 0.9);
+}
+
+/* ======== BODY ======== */
+body { 
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.548)), url(fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg) ;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* ======== TÍTULOS ======== */
+main > h2 {
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+    background-color: rgba(11, 1, 102, 0.559);
+    display: inline-block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Covered By Your Grace';
+    padding: 15px;
+    margin: 2px 0px 5px 15px;
+    font-size: 2rem;
+    text-shadow: 3px 4px 6px black;
+}
+
+/* ======== CONTAINER DE CARDS ======== */
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* grid uniforme */
+    gap: 15px;
+    justify-items: center;
+    align-items: stretch; /* força os cards a terem a mesma altura */
+    margin: 15px;
+}
+
+/* ======== CARDS ======== */
+.berserk, .chainsaw, .death, .gachiakuta, .one,
+.evangelion, .blue, .hellsing, .kaiju, .kid,
+.jujutsu, .naruto, .parasyte, .prison, .fullmetal, .shumatsu, .atack-titan, .blade, .baki, .black-clover, .ippo, .dragon-ball, .drifters, .hells, .HXH, .kengan, .nanatsu, .darling, .bleach{
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    min-height: 300px; /* altura mínima para padronizar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.berserk:hover, .chainsaw:hover, .death:hover, .gachiakuta:hover, .one:hover,
+.evangelion:hover, .blue:hover, .hellsing:hover, .kaiju:hover, .kid:hover,
+.jujutsu:hover, .naruto:hover, .parasyte:hover, .prison:hover, .fullmetal:hover, .shumatsu:hover, .atack-titan:hover, .blade:hover, .baki:hover, .black-clover:hover, .ippo:hover, .dragon-ball:hover, .drifters:hover, .hells:hover, .HXH:hover, .kengan:hover, .nanatsu:hover, .darling:hover, .bleach:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* ======== CORES ======== */
+.berserk { background-color: rgba(99, 99, 99, 0.89); }
+.chainsaw { background-color: rgba(10, 97, 53, 0.959); }
+.death { background-color: rgba(11, 34, 54, 0.966); }
+.gachiakuta { background-color: rgba(234, 124, 238, 0.856); }
+.one { background-color: rgba(127, 58, 192, 0.932); }
+.evangelion { background-color: rgba(201, 3, 3, 0.842); }
+.blue { background-color: rgba(18, 1, 168, 0.884); }
+.hellsing { background-color: rgba(206, 52, 24, 0.774); }
+.kaiju { background-color: rgba(206, 53, 6, 0.932); }
+.kid { background-color: rgba(60, 83, 105, 0.925); }
+.jujutsu { background-color: rgba(43, 19, 128, 0.603); }
+.naruto { background-color: rgba(184, 57, 6, 0.904); }
+.parasyte { background-color: rgba(172, 0, 158, 0.89); }
+.prison { background-color: rgba(0, 1, 73, 0.692); }
+.fullmetal{
+    background-color: rgba(165, 42, 42, 0.884);
+}
+.shumatsu{
+    background-color: rgba(214, 173, 124, 0.925);
+}
+.atack-titan{
+    background-color: rgba(160, 69, 17, 0.911);
+}
+.baki{
+    background-color: rgba(124, 12, 12, 0.918);
+}
+.black-clover{
+    background-color: rgb(87, 4, 4);
+}
+.blade{
+    background-color: rgba(247, 224, 175, 0.87);
+}
+.dragon-ball{
+    background-color: rgb(3, 100, 100);
+}
+.drifters{
+    background-color: rgba(48, 1, 1, 0.884);
+}
+.ippo{
+    background-color: rgba(2, 24, 54, 0.829);
+}
+.hells{
+    background-color: rgb(129, 20, 20);
+}
+.HXH{
+    background-color: rgba(184, 51, 2, 0.884);
+}
+.kengan{
+    background-color: rgba(55, 131, 104, 0.788);
+}
+.darling{
+    background-color: rgba(199, 69, 145, 0.781);
+}
+.bleach{
+    background-color: rgba(27, 116, 79, 0.918);
+}
+
+/* ======== IMAGENS DENTRO DOS CARDS ======== */
+.fotos > img, .berserk img, .chainsaw img, .death img,
+.gachiakuta img, .one img, .evangelion img, .blue img,
+.hellsing img, .kaiju img, .kid img, .jujutsu img,
+.naruto img, .parasyte img, .prison img, .fullmetal img, .shumatsu img, .atack-titan img, .blade img, .baki img, .black-clover img, .ippo img, .dragon-ball img, .drifters img, .hells img, .HXH img, .kengan img, .nanatsu img, .darling img, .bleach img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* ======== TEXTO ======== */
+.descrição {
+    padding: 10px;
+}
+
+.descrição > h3 {
+    font-family: "MedievalSharp", cursive;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 2px black;
+}
+
+.descrição > p { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    color: black;
+    font-weight: bold;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+
+@media (max-width: 1024px) {
+    .fotos {
+        grid-template-columns: repeat(4, 2fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .fotos {
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
+
+header>h3>a{
+    text-decoration: none;
+    color: white;
+}
+
+header>h3{
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+header>h3:hover{
+    transform: translateY(-2px);
+}
