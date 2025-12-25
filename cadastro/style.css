@@ -10,39 +10,88 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1>a{
-    display: block;
-    text-decoration: none;
-    background-color: rgb(32, 32, 32);
+.t1{
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgb(49, 48, 48);
     color: white;
     font-family: 'Covered By Your Grace';
+}
+.t1>h1>a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-family: 'Covered By Your Grace';
+    }
+
+.titulo2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.514)), url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
+    padding: 20px;
+    height: 100px;
+    font-weight: bolder;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+form > p{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.info{
+    color: rgb(114, 114, 114);
     padding: 10px;
     text-align: center;
 }
 
-body{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.39)), url(../pag01/fotos/jujutsu\ kaisen\ wallpaper\ mangá.jpg);
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.cadastro{
-    background-color: rgb(44, 44, 44);
-    color: white;
-    border-radius: 10px;
+.rodape>p{
     padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
+.rodape>p>a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    padding: 10px;
 }
 
-.cadastro>h2{
-    font-family: 'Covered By Your Grace';
-    font-size: 30px;
+.rodape>p>a:hover{
+    color: rgb(255, 255, 255);
 }
 
-form > p{
+.bot input{
     padding: 5px;
-    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(1, 34, 78);
+}
+
+hr{
+    margin: 20px;
+}
+
+
+.fl{
+    text-align: center;
+    padding: 0px 20px 20px 10px;
+}
+
+.fl>h1>a{
+    font-family: 'Covered By Your Grace';
+    text-decoration: none;
+    color: white;
 }

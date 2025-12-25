@@ -7,26 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><a href="../pag01/pag01.html">Animes Online</a></h1>
+    <div class="t1">
+        <h1><a href="../pag01/pag01.html">Animes Online</a></h1>
+    </div>
    <div class="cadastro">
-    <h2>Cadastro</h2>
-    <form action="cadastro.php">
-        <p>
-            <label for="iusu">
-                Nome de usuario: <input type="text" name="usuario" id="iusu" required minlength="2" maxlength="20" >
-            </label>
-        </p>
-        <p>
-            <label for="isen">
-                Senha: <input type="password" name="senha" id="isen" required minlength="8" maxlength="30" >
-            </label>
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar"> 
-        </p>
-         <div class="rodapé"></div>
-    </form>
-   </div>
+    <h1 class="titulo2">Cadastro</h1>
+    <div class="b2">
+        <form action="cadastro.php" method="get">
+                <p>
+                    <label for="iusu">
+                        Nome de usuario: <input type="text" name="usuario" id="iusu" required minlength="2" maxlength="20" >
+                    </label>
+                </p>
+                <p>
+                    <label for="iema">
+                        Email: <input type="email" name="email" id="iema" autocomplete="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="isen">
+                        Senha: <input type="password" name="senha" id="isen" required minlength="8" maxlength="30" >
+                    </label>
+                </p>
+
+            <p class="bot">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+        <div class="info">
+            <p>Ao criar uma conta, você concorda com nossos Termos de Uso e nossa Política de Privacidade, e confirma que tem pelo menos 16 anos de idade.</p>
+        </div>
+           </div>
+        <footer class="rodape">
+                <p><a href="">Termos de Uso</a></p>
+                <p><a href="">Política de Privacidade</a></p>
+                <p><a href="">Ferramenta de Consentimento de Cookies</a></p>
+            <p>Protegido pelo reCAPTCHA. A Política de Privacidade e os Termos de Serviço do Google se aplicam</p>
+        </footer>
+        <hr>
+    </div>
+    <div class="fl"><h1><a href="../pag01/pag01.html">Animes Online</a></h1></div>
 </body>
 </html>
